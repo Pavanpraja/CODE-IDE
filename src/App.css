@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.header {
+  height: 7rem;
+  background-color: black;
+}
+.header img {
+  width: 5rem;
+  margin: 1rem;
+}
+
+.innerb {
+  display: flex;
+  align-items: center;
+  background-color: #060606;
+  justify-content: space-between;
+}
+.innerb .iinerb {
+  display: flex;
+  align-items: center;
+  background-color: #363636;
+  color: white;
+}
+.innerb .iinerb .iiinerb {
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 0.3rem;
+}
+
+.CodeMirror {
+  height: 34rem;
+}
+.CodeMirror .CodeMirror-gutter {
+  background: #363535 !important;
+}
+.CodeMirror .CodeMirror-scroll {
+  background: #363535;
+}/*# sourceMappingURL=App.css.map */

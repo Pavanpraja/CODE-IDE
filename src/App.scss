@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+// header creation
+
+.header {
+  height: 7rem;
+  background-color: black;
+  img {
+    width: 3rem + 2rem;
+    margin: 1rem;
+  }
+}
+
+// Editor creation
+@mixin flexbox{
+    display: flex;
+    align-items: center;
+}
+
+.innerb {
+  @include flexbox;
+  background-color: #060606;
+  justify-content: space-between;
+  .iinerb {
+    @include flexbox();
+    background-color: #363636;
+    color: white;
+    .iiinerb {
+      color: white;
+      width: 2rem;
+      height: 2rem;
+      background-color: red;
+      border-radius: 0.3rem;
+    }
+  }
+}
+// CodeMirror creation
+
+.CodeMirror{
+  height: 34rem;
+  .CodeMirror-gutter{
+    background: #363535 !important;
+  }
+  .CodeMirror-scroll{
+    background: #363535 ;
+  }
+}
